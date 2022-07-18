@@ -1,4 +1,5 @@
 h1{
+    border: 8px solid black;
     text-align: center;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 45px;
@@ -8,6 +9,7 @@ h1{
 
 ul,
 ol{
+    list-style: none;
     text-align: left;
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
@@ -42,3 +44,56 @@ h2{
     text-align: center;
     background-color: blueviolet;
 }
+
+#main-header{
+    font-size: 65px;
+    font-weight: 650;
+    font-style: italic;
+    border: 10px solid black;
+    padding: 5px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.center{
+    display: flex;
+    margin: 0 auto;
+    width:50%;
+    padding: 10px;
+}
+
+.main-list{
+    
+    height: 600px;
+    width: 700px;
+    
+    background-color: #262A8D;
+    border: 6px solid black;
+    margin: 40px;
+    text-align: center;
+    
+    
+}
+
+
+.main-list a{
+    width: 200px;
+    background-color: yellow;
+    margin: 20px;
+    padding: 30px;
+    border: 10px solid red;
+    display: inline-block;
+    box-sizing: border-box;
+    
+}
+
+.main-list a:hover{
+    background-color:#DFDF41 ;
+    border: 11px solid #AC2020;
+    padding: 35px;
+   
+    
+}
+
+
+
